@@ -2181,9 +2181,17 @@ header {
     }
 }
 
+.footer__up {
+    display: none;
+}
+
 @media (max-width:720px) {
     .footer__wrapper {
         display: none;
+    }
+
+    .footer__up {
+        display: flex;
     }
 
     .fst_section .swiper-button-next,
